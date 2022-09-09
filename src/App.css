@@ -1,0 +1,22 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-btn {
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  background: #532BC5;
+}
+
+.connect-btn:hover {
+  cursor: pointer;
+}
