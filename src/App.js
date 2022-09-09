@@ -15,6 +15,9 @@ function App() {
       return
     }
 
+    setBalance(0)
+    setUsdcBalance(0)
+    setIsConnected(false)
     if (ethereum.networkVersion !== '137') {
       alert('Error: The Network is Wrong!')
       return
